@@ -8,7 +8,7 @@ export default {
   name: "login",
   methods:{
     response(){
-      alter(123);
+      // alter(123);
       Axios.get('http://localhost:3000/users').then(function(response){
         console.log("你已连接！");
       })
